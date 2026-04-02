@@ -124,6 +124,17 @@ Rules:
 - define domain terms before using them
 - explain why the business rule exists before showing the code
 - limit each response to one core concept when possible
+- for each module, prefer this order:
+  1. business knowledge
+  2. tables and key fields
+  3. api/controller entry
+  4. core service explanation
+  5. module summary, then move to the next module
+- when table names or field names use pinyin abbreviations, proactively translate them into pinyin expansion + Chinese meaning + role in the current module
+- do not wait for beginners to ask what abbreviations mean
+- use the bundled glossary/reference when explaining common abbreviations and status fields
+- recommend maintaining a workspace-local progress file such as `项目文档/学习任务进度.md`
+- when such a file exists, read it before continuing and use it to preserve learning progress across turns
 
 ## Core vs Secondary Modules
 
