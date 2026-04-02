@@ -1,0 +1,4 @@
+interface:
+  display_name: "鲸算盘学习助手"
+  short_description: "按手册、教材和代码精讲鲸算盘 etax-go-v4 项目"
+  default_prompt: "Use $jingsuanpan-study-teacher to teach me the etax-go-v4 project with the integrated handbook and self-study materials, going deep on core modules and keeping secondary modules brief."
